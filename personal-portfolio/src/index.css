@@ -43,6 +43,53 @@ section {
   text-align: center;
 }
 
+/* -----------home--------------- */
+/* General styling for containers and rows */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* Styling for the home section */
+#home {
+  background-color: #f4f4f4; /* Set a background color as needed */
+  padding: 80px 0; /* Adjust the padding as needed */
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.designer-image,
+.coder-image {
+  text-align: center;
+}
+
+.designer-image img,
+.coder-image img {
+  width: 200px; /* Adjust the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the images circular */
+  margin-bottom: 20px;
+}
+
+.role-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Add additional styling as needed */
+
+
 /* -----------about--------------- */
 #about{
   padding: 80px 0;
