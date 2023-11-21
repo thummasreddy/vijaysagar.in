@@ -43,24 +43,10 @@ section {
   text-align: center;
 }
 
-/* -----------home--------------- */
-/* General styling for containers and rows */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
-
-/* Styling for the home section */
+/* Home Section */
 #home {
-  background-color: #f4f4f4; /* Set a background color as needed */
-  padding: 80px 0; /* Adjust the padding as needed */
+  background-color: #061B2D; /* Set a background color as needed */
+  padding: 10px 0; /* Adjust the padding as needed */
 }
 
 .home {
@@ -68,18 +54,28 @@ section {
   justify-content: space-around;
   align-items: center;
 }
-
-.designer-image,
-.coder-image {
-  text-align: center;
+.home {
+  flex-basis: 35%;
+}
+.home img {
+  width: 100%;
+  border-radius: 15px;
 }
 
-.designer-image img,
-.coder-image img {
-  width: 200px; /* Adjust the width of the images as needed */
+.designer-image img {
+  width: 750px; /* Adjust the width of the images as needed */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 50%; /* Make the images circular */
+  border-radius: 20%; /* Make the images circular */
   margin-bottom: 20px;
+  margin-left: 135px;
+}
+
+.coder-image img {
+  width: 750px; /* Adjust the width of the images as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20%; /* Make the images circular */
+  margin-bottom: 20px;
+  margin-left: 75px;
 }
 
 .role-text {
@@ -87,49 +83,51 @@ section {
   font-weight: bold;
 }
 
-/* Add additional styling as needed */
-
-
-/* -----------about--------------- */
-#about{
+/* About Section */
+#about {
   padding: 80px 0;
   color: #ababab;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.about-col-1{
+.about-col-1 {
   flex-basis: 35%;
 }
-.about-col-1 img{
+
+.about-col-1 img {
   width: 100%;
   border-radius: 15px;
 }
-.about-col-2{
+
+.about-col-2 {
   flex-basis: 60%;
 }
 
-.sub-title{
+.sub-title {
   font-size: 60px;
   font-weight: 600;
   color: #fff;
 }
 
-.tab-titles{
+.tab-titles {
   display: flex;
   margin: 20px 0 40px;
 }
-.tab-links{
+
+.tab-links {
   margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
 }
-.tab-links::after{
+
+.tab-links::after {
   content: '';
   width: 0;
   height: 3px;
@@ -140,21 +138,24 @@ section {
   transition: 0.5s;
 }
 
-.tab-links.active-link::after{
+.tab-links.active-link::after {
   width: 50%;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
   list-style: none;
   margin: 10px 0;
 }
-.tab-contents ul li span{
+
+.tab-contents ul li span {
   color: #b54769;
   font-size: 14px;
 }
-.tab-contents{
+
+.tab-contents {
   display: none;
 }
-.tab-contents.active-tab{
+
+.tab-contents.active-tab {
   display: block;
 }
