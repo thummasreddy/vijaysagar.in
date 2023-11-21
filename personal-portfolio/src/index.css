@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #061B2D;
   padding: 15px 0;
 }
 
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 nav a {
@@ -59,14 +59,15 @@ section {
 }
 .home img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .designer-image img {
   width: 750px; /* Adjust the width of the images as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 20%; /* Make the images circular */
-  margin-bottom: 20px;
+  margin-bottom: 400px;
+  margin-top: 75;
   margin-left: 135px;
 }
 
@@ -74,19 +75,22 @@ section {
   width: 750px; /* Adjust the width of the images as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 20%; /* Make the images circular */
-  margin-bottom: 20px;
+  margin-bottom: 400px;
+  margin-top: 75;
   margin-left: 75px;
 }
 
 .role-text {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
+  color: #fff;
 }
 
 /* About Section */
 #about {
   padding: 80px 0;
-  color: #ababab;
+  color: #fff; /* Text color */
+  background-color: #000; /* Change background color to black */
 }
 
 .row {
